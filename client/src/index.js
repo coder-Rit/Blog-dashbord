@@ -146,7 +146,7 @@ async function deleteBlog(id, name) {
 
 function editBlog(id) {
   localStorage.setItem("currentBlogID", id);
-  window.location = `${CLIENT_URI}client/src/pages/tables/basic-table.html`
+  window.location = `${CLIENT_URI}/client/src/pages/tables/basic-table.html`
 }
 
 function logOutUser() {
