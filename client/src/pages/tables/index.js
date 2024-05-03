@@ -288,7 +288,7 @@ async function updateBlogUpdate(CategoryList) {
 function logOutUser() {
     
   document.cookie = "Token" + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-  location.reload(true)
+ window.location = `${CLIENT_URI}/client/src/pages/auth/login.html`;
 
 
 }
