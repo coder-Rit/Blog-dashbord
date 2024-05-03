@@ -1,0 +1,65 @@
+.file-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.file-input {
+    display: none; /* Hide the default file input */
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.file-input-label:hover {
+    background-color: #2980b9;
+}
+
+.catorgryElems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+
+}
+.categoryNameDiv{
+    width: 200px;
+}
+
+.addUsersDIv{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+}
+
+@media (max-width: 750px) {
+    .addUsersDIv{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+     
+    }
+    .usertableBody{
+        overflow-x: scroll;
+    }
+    .content-wrapper{
+        padding: 10px;
+    }
+}
+
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

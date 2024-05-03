@@ -1,0 +1,60 @@
+.customeInputFile{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.blogImage{
+    width: 100%;
+}
+.blogImageDiv{
+    height: 200px;
+    overflow: hidden;
+}
+
+.blogCartDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px; 
+}
+
+.customCartBlog {
+    width: 350px; /* Fixed width for each cart item */
+   
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow to make the items pop out */
+    border-radius: 8px; /* Optional: Rounds the corners of the cart items */
+    overflow: hidden; /* Ensures no content spills out */
+    background-color: #fff; /* Optional: Sets a background color for the cart items */
+    height: 400px;
+    position: relative;
+}
+
+.margin15{
+margin: 15px;
+}
+.btnDIv{
+display: flex;
+justify-content: flex-end;
+}
+
+.absDiv{
+    position: absolute;
+    bottom: 0;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .customCartBlog{
+width: 100%;
+    }
+}

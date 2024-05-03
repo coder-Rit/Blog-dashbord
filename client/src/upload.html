@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Collecting Data</title>
+
+</head>
+
+<body class="container" style="margin-top: 50px; width: 50%; height:auto;">
+
+    <h2 class="text-primary" style="margin-left: 15px; margin-bottom: 10px;">
+        Hey There, Here we are going to upload
+    </h2>
+    <form class="container" id="contactForm">
+        <div class="card">
+            <div class="card-body">  
+                Document Upload:
+                <br>
+                <!-- click here to choose file -->
+                <input type="file" name="files[]" id="files">
+                <!-- click here to upload file -->
+                <input type="hidden" name="url" id="url">
+                <button type="button" onclick="uploadimage('files','blogs')">
+                    Upload Image
+                </button>
+                <br><br>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="margin-left: 15px; margin-top: 10px; display:none;">
+            Submit
+        </button>
+
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+
+    <script>
+        // adding firebase data
+      
+
+      
+    </script>
+</body>
+
+</html>
